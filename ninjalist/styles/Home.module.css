@@ -1,4 +1,6 @@
+/*
 .container {
+  background: darkblue;
   min-height: 100vh;
   padding: 0 0.5rem;
   display: flex;
@@ -119,4 +121,25 @@
     width: 100%;
     flex-direction: column;
   }
+}
+*/
+.title {
+  color: #333;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.text {
+  color: #777;
+}
+
+.btn {
+  display: block;
+  width: 150px;
+  padding: 8px 0;
+  margin: 20px auto;
+  background: #4979ff;
+  border-radius: 4px;
+  color: white;
+  text-align: center;
 }

@@ -8,12 +8,13 @@ export default function Home() {
   return (
     
     
+        // <div className={styles.container}>
         <div>
-            <h1>Home Page</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui atque rerum quidem quia voluptatem, voluptatum sint unde error iusto consequatur reiciendis corrupti distinctio expedita sed labore? Corrupti vel vero voluptas delectus non! Corporis laudantium culpa inventore illum beatae quas, asperiores optio dolores dignissimos odio?</p>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A incidunt quae, rem necessitatibus minus dolores! Magni, incidunt asperiores?</p>
+            <h1 className={styles.title}>Home Page</h1>
+            <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui atque rerum quidem quia voluptatem, voluptatum sint unde error iusto consequatur reiciendis corrupti distinctio expedita sed labore? Corrupti vel vero voluptas delectus non! Corporis laudantium culpa inventore illum beatae quas, asperiores optio dolores dignissimos odio?</p>
+            <p className={styles.text}>Lorem ipsum dolor sit amet consectetur, adipisicing elit. A incidunt quae, rem necessitatibus minus dolores! Magni, incidunt asperiores?</p>
             <Link href="ninjas">
-            <a>See Ninja Listing</a>
+            <a className={styles.btn}>See Ninja Listing</a>
             </Link>
         </div>
     // <div className={styles.container}>
