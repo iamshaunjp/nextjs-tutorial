@@ -53,3 +53,12 @@ footer {
   color: #777;
   border-top: 1px solid #333;
 }
+
+.not-found {
+  text-align: center;
+}
+
+.not-found a {
+  border-bottom: 2px dotted #38f09a;
+  text-decoration: none;
+}
