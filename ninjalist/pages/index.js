@@ -6,9 +6,15 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
+      <>
+      <Head>
+
+        <title>Home Pg</title>
+        <meta name="keywords" content="keyword, another"/>
+      </Head>
     
     
-        // <div className={styles.container}>
+        {/* // <div className={styles.container}> */}
         <div>
             <h1 className={styles.title}>Home Page</h1>
             <p className={styles.text}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui atque rerum quidem quia voluptatem, voluptatum sint unde error iusto consequatur reiciendis corrupti distinctio expedita sed labore? Corrupti vel vero voluptas delectus non! Corporis laudantium culpa inventore illum beatae quas, asperiores optio dolores dignissimos odio?</p>
@@ -17,6 +23,7 @@ export default function Home() {
             <a className={styles.btn}>See Ninja Listing</a>
             </Link>
         </div>
+      </>
     // <div className={styles.container}>
     //   <Head>
     //     <title>Create Next App</title>

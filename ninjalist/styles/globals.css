@@ -62,3 +62,12 @@ footer {
   border-bottom: 2px dotted #38f09a;
   text-decoration: none;
 }
+
+img {
+  height: auto;
+  width: fit-content;
+}
+
+.logo-img {
+  width: 80px;
+}
