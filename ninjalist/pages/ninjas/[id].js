@@ -20,7 +20,7 @@ export const getStaticPaths = async () => {
 // this function runs as many times as there are items in what you fetch
 export const getStaticProps = async (context) => {
     const id = context.params.id;
-    const res = await fetch('http://jsonplaceholder.typicode.com/users' + id);
+    const res = await fetch('https://jsonplaceholder.typicode.com/users/' + id);
     const data = await res.json();
     
     return {
@@ -28,6 +28,9 @@ export const getStaticProps = async (context) => {
     }
     
 }
+
+
+
 
 const Details = ({ ninja }) => {
     
