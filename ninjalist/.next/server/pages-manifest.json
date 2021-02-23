@@ -1,7 +1,12 @@
 {
+  "/404": "pages/404.html",
   "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
+  "/about": "pages/about.html",
+  "/api/hello": "pages/api/hello.js",
+  "/": "pages/index.html",
+  "/ninjas/[id]": "pages/ninjas/[id].js",
   "/ninjas": "pages/ninjas.js",
-  "/ninjas/[id]": "pages/ninjas/[id].js"
+  "/ninjas/ninjas": "pages/ninjas/ninjas.html",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js"
 }
