@@ -1,18 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;600;700&display=swap'); */
 
+html,
 body {
-  background: #f2f2f2;
+  background: #edf2f4;
   color: #333;
-  font-family: "Nunito";
+  font-family: Source Code Pro;
 }
+
 a {
   color: #333;
   text-decoration: none;
 }
+
 .content {
   max-width: 960px;
   margin: 0 auto;
 }
+
 nav {
   margin: 10px auto 80px;
   padding: 10px 0;
@@ -21,18 +25,40 @@ nav {
   align-items: flex-end;
   border-bottom: 1px solid #ddd;
 }
+
 nav a {
   margin-left: 12px;
 }
+
 nav .logo {
   margin-right: auto;
-}
-footer {
-  display: block;
-  text-align: center;
-  padding: 30px 0;
-  margin-top: 60px;
-  color: #777;
-  border-top: 1px solid #eaeaea;
+  cursor: pointer;
 }
 
+footer {
+  display: block;
+  padding: 30px 0;
+  margin: 60px;
+  color: #777;
+  width: 100%;
+  border-top: 2px solid #ddd;
+
+}
+
+
+.not-found {
+  text-align: center;
+}
+
+.not-found button {
+  padding: 12px;
+  width: 150px;
+  border: none;
+  background: #4361ee;
+  border-radius: 12px;
+  color: white;
+}
+
+button:hover {
+  background: #3f37c9;
+}
